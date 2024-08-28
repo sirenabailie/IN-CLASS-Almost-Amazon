@@ -1,5 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
 
 body {
   background-color: black;
@@ -95,4 +97,9 @@ body {
   .description {
     white-space: pre-wrap;
   }
+}
+
+.fa-heart {
+  color: red;
+  background-color: white;
 }
